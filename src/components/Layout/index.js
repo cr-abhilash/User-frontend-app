@@ -20,7 +20,7 @@ const Layout = (props) => {
             <Col md={2} className="sidebar">
               <ul>
                 <li><NavLink exact to={`/`}>Home</NavLink></li>
-                <li><NavLink to={`/users`}>users</NavLink></li>
+                <li><NavLink to={`/users`}>Users</NavLink></li>
               </ul>
             </Col>
             <Col md={10} style={{ marginLeft: 'auto', paddingTop: '60px' }}>

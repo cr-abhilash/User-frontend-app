@@ -19,7 +19,7 @@ const Header = (props) => {
   const renderLoggedInLinks = () => {
     return (
       <Nav>
-        <li className="nav-item">
+        <li className="nav-item" style={{cursor:"pointer"}}>
           <span className="nav-link" onClick={props.handleSignout}>
             Signout
           </span>
